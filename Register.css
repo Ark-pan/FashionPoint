@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url('image21.jpg') no-repeat;
+
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	color: white;
+}
+
+
+header{
+	background:	transparent;
+	color: white;
+	min-height: 70px;
+	
+}
+
+header:hover{
+	background: white;
+	transition: background 1s;
+	
+	color: black;
+}
+
+header:hover ul li a{
+	color: black;
+	font-weight: bold;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul li a:hover{
+	color: goldenrod;
+	transition: color 1s;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	color: black;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	padding-top: 20px;
+	margin-left: 2px;
+	letter-spacing: 0.2em;
+
+}
+
+header #branding span{
+	color: darkgoldenrod;
+}
+
+header nav{
+	float: right;
+	margin-top: 40px;
+}
+
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+}
+
+.form h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.form p{
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.form input{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.form button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: #6677;
+	cursor: pointer;
+}
+
+.form button:hover{
+	background-color: yellow;
+	transition: background-color	1s ;
+}
