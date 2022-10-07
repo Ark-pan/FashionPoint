@@ -5,9 +5,9 @@
 }
 
 body{
-	background: url('image21.jpg') no-repeat;
+	background-image:linear-gradient(rgba(0, 0, 40, 0.6),rgba(0, 0, 40, 0.6)),  url('./images/image311.jpg');
 
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	width: 100%;
 	height: 100vh;
@@ -22,23 +22,17 @@ header{
 	
 }
 
-header:hover{
-	background: white;
-	transition: background 1s;
-	
-	color: black;
-}
 
-header:hover ul li a{
-	color: black;
-	font-weight: bold;
-}
+
+
 
 header a{
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.01em;
 }
 
 header ul li a:hover{
@@ -60,6 +54,7 @@ header li{
 
 header #branding{
 	float: left;
+	font-size: 12px;
 }
 
 header #branding h1{
@@ -70,7 +65,7 @@ header #branding h1{
 }
 
 header #branding span{
-	color: darkgoldenrod;
+	color: darkgrey;
 }
 
 header nav{
@@ -78,7 +73,12 @@ header nav{
 	margin-top: 40px;
 }
 
+.center{
+	text-align: center;
+}
+
 .form{
+	margin-top: 10px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -115,11 +115,17 @@ header nav{
 	width: 50%;
 	border: 0;
 	border-radius: 5px;
-	background-color: #6677;
+	background-color: lavenderblush;
 	cursor: pointer;
 }
 
 .form button:hover{
 	background-color: yellow;
 	transition: background-color	1s ;
+}
+
+.form{
+	border: 1px solid white;
+	border-right: 100px;
+	border-left: 100px;
 }
