@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.reconnect{
+	font-size: 20px;
+	letter-spacing: 0.3em;
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-family: 'Tahoma';
+}
+
+
+nav{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 18px 8%;
+	color: none;
+
+}
+
+nav .logo{
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	font-weight: 600;
+	color: #fff;
+}
+nav.about{
+	margin-top: 10px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin:50px 20px;
+	float: right;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: darkcyan;
+	transition: color	1s;
+}
+
+.page{
+background-image:linear-gradient(rgba(20, 0, 30, 0.6),rgba(20, 0, 30, 0.6)),  url('./images/image18.jpg');
+	width: 100%;
+
+	min-width: 50%;
+	height: 100vh;
+	background-position: top;
+	background-size: cover;
+
+}
+
+.page h1{
+	padding-top: 170px;
+	padding-bottom: 20px;
+	margin-left:10px;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	
+	font-family: 'arial';
+	color: lavenderblush;
+}
+
+.page p{
+	margin-left: 25px;
+	font-weight: bolder;
+	margin-top: 10px;
+	font-size: 17px;
+	width: 400px ;
+	color: ghostwhite;
+	letter-spacing: 1px;
+
+}
+
+
+.button{
+		border: 2px solid white;
+	padding-top: 90px;
+	padding: 10px 35px;
+	border-radius: 20px;
+	margin-right: 15px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	transition: 1s;
+}
+
+.button:hover {
+	background-color: #3b3b4f;
+	
+}
+
+
+
+
+.slide-left{
+	animation: omara 1s linear forwards;
+}
+
+.slide-left span{
+	color: grey;
+}
+
+@keyframes omara{
+
+	0%{
+		transform: translate(0px);
+		opacity: 0;
+	}
+	100%{
+		transform: translate(0px);
+		opacity: 1;
+	}
+
+
+}
+
+.social{
+	position: absolute;
+	bottom: 20px;
+	
+	display: flex;
+	
+	background-color: 0;
+}
+
+.social li{
+	list-style: none;
+	background-color: 0;
+}
+
+.social li a{
+	display: inline-block;
+	background-color: 0;
+	transform: scale(0.5);
+	transition: 0.5s;
+	margin: none;
+}
+
+.social li a:hover {
+	transform: scale(0.5) translateY(-15px);
+}
+
+.social img{
+	width: 60%;
+	height: 60%;
+}
